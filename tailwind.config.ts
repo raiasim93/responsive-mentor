@@ -44,6 +44,12 @@ const config: Config = {
         300: '#FC7D7D',
         100: '#FFDADA',
       },
+      customBlue: {
+        DEFAULT: '#3D53A2', 
+        100: '#A5B4FC', 
+        200: '#818CF8', 
+        300: '#6366F1', 
+      },
     },
     extend: {
       colors: {
