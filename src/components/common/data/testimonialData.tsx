@@ -1,5 +1,5 @@
-import userImage1 from "../images/pagename/user1-image.webp";
-import userImage2 from "../images/pagename/user2-image.webp"
+import userImage1 from "../images/pagename/testimony/user1-image.webp";
+import userImage2 from "../images/pagename/testimony/user2-image.webp"
 const testimonialData = [
     {   
         id: 1,
