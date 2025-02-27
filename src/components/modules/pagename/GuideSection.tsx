@@ -7,11 +7,12 @@ const GuideSection = () => {
   <section className="flex px-[8vw] 2xl:px-[18vw] py-[12vh]">
         <div className="w-1/2 flex flex-col justify-center gap-y-8">
           <div className="text-5xl ">How it works</div>
+
           <div className="text-items">
        
-            <div className="active-text-item">
-              <div className="first-row">
-                <div className="item-number">1</div>
+            <div className="flex flex-col">
+              <div className="first-row bg-indigo-600 p-y-8vh rounded-b-4xl">
+                <div className="item-number  bg-white w-12 h-12 rounded-full flex justify-center items-center text-indigo-600">1</div>
                 <div className="item-subtitle">Choose your challenge</div>
               </div>
               <div className="second-row">
@@ -21,7 +22,7 @@ const GuideSection = () => {
                 </div>
               </div>
             </div>
-            <div className="text-item">
+            {/* <div className="text-item">
               <div className="item-number">2</div>
               <div className="item-subtitle">Code the design</div>
             </div>
@@ -32,7 +33,7 @@ const GuideSection = () => {
             <div className="text-item">
               <div className="item-number">4</div>
               <div className="item-subtitle">Give others feedback</div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="w-1/2">
