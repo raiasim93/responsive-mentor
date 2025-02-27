@@ -6,7 +6,7 @@ import data from "../../common/data/guideData";
 const GuideSection = () => {
     return (
         <>
-            <section className="flex px-[8vw] 2xl:px-[18vw] py-[8vh] bg-teal-50 mx-6 gap-x-6">
+            <section className="flex px-[8vw] 2xl:px-[18vw] py-[10vh] bg-teal-50 mx-6 gap-x-6">
             
                 <div className="w-1/2 flex flex-col justify-center gap-y-6">
                     <div className="text-5xl ">How it works</div>

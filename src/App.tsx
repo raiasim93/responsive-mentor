@@ -5,6 +5,7 @@ import TestimonySection from './components/modules/pagename/TestimonySection'
 import { CoverageSection } from './components/modules/pagename/CoverageSection'
 import FeaturesSection from './components/modules/pagename/FeaturesSection'
 import GuideSection from './components/modules/pagename/GuideSection'
+import SubSection from './components/modules/pagename/SubSection'
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <CoverageSection />
       <FeaturesSection />
       <GuideSection />
+      <SubSection />
     </>
   )
 }
