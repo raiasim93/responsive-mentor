@@ -9,19 +9,21 @@ import SubSection from './components/modules/pagename/SubSection'
 import ProSection from './components/modules/pagename/ProSection'
 import CommunitySection from './components/modules/pagename/CommunitySection'
 import FAQsSection from './components/modules/pagename/FAQsSection'
+import JoinSection from './components/modules/pagename/JoinSection'
 function App() {
   return (
     <>
       <Navbar />
-      {/* <HomeHeroSection />
+      <HomeHeroSection />
       <TestimonySection />
       <CoverageSection />
       <FeaturesSection />
       <GuideSection />
       <SubSection />
-      <ProSection /> */}
+      <ProSection />
       <CommunitySection />
       <FAQsSection />
+      <JoinSection />
     </>
   )
 }
