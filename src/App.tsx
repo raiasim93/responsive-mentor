@@ -6,6 +6,7 @@ import { CoverageSection } from './components/modules/pagename/CoverageSection'
 import FeaturesSection from './components/modules/pagename/FeaturesSection'
 import GuideSection from './components/modules/pagename/GuideSection'
 import SubSection from './components/modules/pagename/SubSection'
+import ProSection from './components/modules/pagename/ProSection'
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <FeaturesSection />
       <GuideSection />
       <SubSection />
+      <ProSection />
     </>
   )
 }
