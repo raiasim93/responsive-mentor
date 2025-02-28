@@ -8,6 +8,7 @@ import GuideSection from './components/modules/pagename/GuideSection'
 import SubSection from './components/modules/pagename/SubSection'
 import ProSection from './components/modules/pagename/ProSection'
 import CommunitySection from './components/modules/pagename/CommunitySection'
+import FAQsSection from './components/modules/pagename/FAQsSection'
 function App() {
   return (
     <>
@@ -17,9 +18,10 @@ function App() {
       <CoverageSection />
       <FeaturesSection />
       <GuideSection />
-      <SubSection /> */}
-      <ProSection />
+      <SubSection />
+      <ProSection /> */}
       <CommunitySection />
+      <FAQsSection />
     </>
   )
 }
