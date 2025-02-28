@@ -11,6 +11,7 @@ import CommunitySection from './components/modules/pagename/CommunitySection'
 import FAQsSection from './components/modules/pagename/FAQsSection'
 import JoinSection from './components/modules/pagename/JoinSection'
 import HiringSection from './components/modules/pagename/HiringSection'
+import Footer from './components/partials/Footer'
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
       <FAQsSection /> 
        <JoinSection /> 
        <HiringSection />
+       <Footer />
     </>
   )
 }
