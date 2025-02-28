@@ -14,5 +14,6 @@ const proData = [
         heading: "Tackle our premium challenges",
         description: "Our premium challenges are the most realistic, comprehensive  practice projects you’ll find. They also make incredible portfolio pieces to help you “wow!” recruiters and get hired.."
     },
+    
 ]
 export default proData;
