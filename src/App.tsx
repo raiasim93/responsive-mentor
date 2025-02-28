@@ -7,17 +7,19 @@ import FeaturesSection from './components/modules/pagename/FeaturesSection'
 import GuideSection from './components/modules/pagename/GuideSection'
 import SubSection from './components/modules/pagename/SubSection'
 import ProSection from './components/modules/pagename/ProSection'
+import CommunitySection from './components/modules/pagename/CommunitySection'
 function App() {
   return (
     <>
       <Navbar />
-      <HomeHeroSection />
+      {/* <HomeHeroSection />
       <TestimonySection />
       <CoverageSection />
       <FeaturesSection />
       <GuideSection />
-      <SubSection />
+      <SubSection /> */}
       <ProSection />
+      <CommunitySection />
     </>
   )
 }
