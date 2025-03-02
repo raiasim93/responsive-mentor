@@ -3,3 +3,7 @@
 body{
     background-color: rgb(250, 250, 250);
 }
+
+section.join-bg-image{
+    background-image: url(./components/common/images/pagename/joinCommunity/join-background.png);
+}
