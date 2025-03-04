@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
   return (
@@ -13,7 +14,8 @@ const Navbar = () => {
           Mentor
         </div>
       </div>
-      <div className='flex gap-x-4 items-center font-semibold italic text-sm'>
+      {/* <div className='flex gap-x-4 items-center font-semibold italic text-sm'> */}
+      <div className='hidden xl:flex  gap-x-4 items-center font-semibold italic text-sm'>
         <a href='#' className="">LEARNING PATHS</a>
         <a href='#' className="">CHALLENGES</a>
         <a href='#' className="">SOLUTIONS</a>
@@ -23,6 +25,10 @@ const Navbar = () => {
           LOG IN WITH GITHUB
          <FontAwesomeIcon className='text-2xl' icon={faGithub} />
         </a>
+      </div>
+      {/* create a sidebar to show the above navigations  */}
+      <div className="xl:hidden flex flex-col gap-y-4">
+         <GiHamburgerMenu className="sm:text-2xl md:text-4xl" />
       </div>
     </nav>
     </>
