@@ -6,8 +6,8 @@ import heroCommunityImage from "../../common/images/landing/hero-community.webp"
 const HomeHeroSection = () => {
   return (
     <>
-     <section className="ps-[8vw] py-[12vh] 2xl:px-[18vw] flex gap-x-4 w-screen">
-        <div className="flex flex-col pe-4 gap-y-8 w-1/2">
+     <section className="ps-[8vw] py-[12vh] 2xl:px-[18vw] flex flex-col md:flex-row gap-x-4 w-screen">
+        <div className="flex flex-col pe-4 gap-y-8 w-full md:w-1/2">
           <div className="text-[3.6rem] leading-16 text-blue-900">
             Improve your coding skills by building realistic projects
           </div>
@@ -33,7 +33,7 @@ const HomeHeroSection = () => {
           </div>
         </div>
         {/* Image Section: Right column on bigger screens */}
-        <div className="w-1/2 h-full">
+        <div className="w-full md:w-1/2 h-full">
           <img className='w-full h-full object-center object-cover scale-120' src={heroMainImage} alt="" />
         </div>
       </section>
